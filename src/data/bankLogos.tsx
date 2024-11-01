@@ -2,7 +2,9 @@ import React from 'react';
 
 export const bankLogos = {
   mercury: (isDark: boolean) => (
-    <img src="src/images/mercury-bank-logo.png" />
+    <svg viewBox="0 0 24 24" className="w-6 h-6" fill="none">
+      <img src="src/images/mercury-bank-logo.png" alt="mercury-bank-logo" />
+    </svg>
   ),
   wise: (isDark: boolean) => (
     <svg viewBox="0 0 24 24" className="w-6 h-6" fill="none">
