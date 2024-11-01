@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900 bg-gradient-to-br from-blue-50 to-indigo-50 min-h-screen;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-lg border border-white/20 shadow-xl;
+  }
+  
+  .select-wrapper {
+    @apply relative;
+  }
+  
+  .select-wrapper select {
+    @apply appearance-none w-full px-4 py-3 bg-white/70 backdrop-blur-sm border border-gray-200 rounded-xl shadow-sm 
+    focus:border-blue-500 focus:ring-2 focus:ring-blue-200 focus:outline-none transition-all duration-200;
+  }
+  
+  .select-wrapper .icon {
+    @apply absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none transition-transform duration-200;
+  }
+  
+  .select-wrapper select:focus + .icon {
+    @apply text-blue-500;
+  }
+}
+
+select {
+  background-image: none;
+}
