@@ -2,10 +2,7 @@ import React from 'react';
 
 export const bankLogos = {
   mercury: (isDark: boolean) => (
-    <svg viewBox="0 0 24 24" className="w-6 h-6" fill="none">
-      <rect width="24" height="24" rx="6" fill={isDark ? '#2D2D2D' : '#000000'} />
-      <path d="M7 7h4v4H7V7zM13 7h4v4h-4V7zM7 13h4v4H7v-4zM13 13h4v4h-4v-4z" fill="white" />
-    </svg>
+    <img src="src/images/mercury-bank-logo.png" />
   ),
   wise: (isDark: boolean) => (
     <svg viewBox="0 0 24 24" className="w-6 h-6" fill="none">

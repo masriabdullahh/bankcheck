@@ -69,7 +69,7 @@ const App: React.FC = () => {
           <div className="flex items-center gap-4">
             <div className="relative">
               <img
-                src="https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/abdullah-masri.jpg"
+                src="src/images/Abdullah Masri.jpg"
                 alt="Abdullah Masri"
                 className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover border-2 border-white shadow-lg"
               />
