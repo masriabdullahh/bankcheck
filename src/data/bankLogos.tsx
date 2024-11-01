@@ -7,14 +7,13 @@ export const bankLogos = {
     </div>
   ),
   wise: (isDark: boolean) => (
-    <svg viewBox="0 0 24 24" className="w-6 h-6 " fill="none">
-      <rect width="24" height="24" rx="6" fill={isDark ? '#50B0B9' : '#00B9FF'} />
-      <path d="M12 6l-4 6h8l-4-6zM8 13l4 6 4-6H8z" fill="white" />
-    </svg>
+    <div className="w-6 h-6 flex items-center justify-center">
+      <img src="src/images/relayfi.png" alt="relay-logo" />
+    </div>
   ),
   relay: () => (
     <div className="w-6 h-6 flex items-center justify-center">
-      <img src="src/images/relayfi.png" alt="relay-logo" />
+      <img src="src/images/Wise-Logo.png" alt="wise-logo" />
     </div>
   ),
   payoneer: () => (
